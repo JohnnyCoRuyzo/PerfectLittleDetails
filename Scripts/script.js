@@ -90,7 +90,7 @@ function show(str) {
 	var img = document.getElementById(str).src;
 	//eslint-disable-next-line no-console
 	console.log(img);
-	var product = img.split('/')[img.split('/').length - 1].replace(',jpg', '');
+	var product = img.split('/')[img.split('/').length - 1].replace('.jpg', '');
 	//eslint-disable-next-line no-console
 	var element = Details.filter(obj => obj.Product == product)[0];
 	document.getElementById('productTitle').innerHTML = element.Product + ' - ' + element.Name;
