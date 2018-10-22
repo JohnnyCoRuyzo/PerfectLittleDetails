@@ -328,3 +328,16 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+#ESLint
+.eslintrc.json
+
+#Visual Studio Code
+.vscode/
+
+#Git Attributes
+.gitattributes
+
+#JSON package
+package*
+
